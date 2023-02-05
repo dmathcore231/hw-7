@@ -5,8 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/normalize.css">
+  <title>AXIT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/header__nav-bar.css">
 
@@ -14,10 +17,10 @@
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container " id="bg-header">
       <nav class="nav-bar header__nav-bar">
-        <div class="logo header__logo">
-          <img src="./images/logo.svg" alt="" class="header__logo-icon">
+        <div class="logo header__logo_size_m">
+          <img src="./images/logo-nav-bar.png" alt="" class="header__logo-icon">
         </div>
         <ul class="nav-menu">
           <li class="nav-menu__item">
@@ -37,6 +40,35 @@
           </li>
         </ul>
       </nav>
+
+      <div class="header__main">
+        <div class="promo">
+          <div class="logo promo__logo_size_l">
+            <img src="./images/logo.png" alt="" class="promo__logo_size_l-icon">
+          </div>
+          <h1 class="promo_pretitle
+          promo_pretitle_color_white
+          promo_pretitle_size_l
+          promo_pretitle_align_left">
+            MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+          </h1>
+          <div class="promo_separator
+          promo_separator_color_white
+          promo_separator_align_left">
+          </div>
+          <div class="promo__subtitle
+          promo__subtitle_color_white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </div>
+          <div class="promo__btn">
+            <a href="#" class="btn btn-download
+            btn-download_border_white
+            btn-download_background_transparent">
+              Download
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 </body>

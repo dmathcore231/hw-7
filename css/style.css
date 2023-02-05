@@ -4,11 +4,25 @@
   list-style-type: none;
   margin: 0px;
   padding: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background: #E5E5E5;
 }
 
 .container {
   max-width: 1510px;
   margin: 0 auto;
+}
+
+#bg-header {
+  background-image: url(/images/bg-header.png);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .nav-bar {
@@ -18,24 +32,114 @@
 
 .header__nav-bar {
   background-color: #000000;
-  padding-right: 140px;
+  padding: 0 140px 0 115px;
 }
 
 .nav-menu {
   display: flex;
 }
 
-.nav-menu__item{
-  padding: 28px 30px 28px 30px;
+.logo {
+  display: flex;
 }
+
+/*.nav-menu__item{
+
+}*/
+
 .nav-menu__link {
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 28.5px 30px 28.5px 30px;
+}
+
+.nav-menu__link:hover {
+  background-color: #EC7979;
+}
+
+.nav-menu__link:active {
+  background-color: #AB4949;
+}
+
+.btn {
+  font-family: "Open Sans";
+  background-color: transparent;
+  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  padding: 18.5px 96px 18.5px 96px;
+}
+
+.btn-download {
+  background-color: #EC7979;
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.header__main {
+
+  padding: 208px 670px 185px 170px;
+
+}
+
+.promo_pretitle {
+  padding: 50px 0 55px 0;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.promo_pretitle_color_white {
   color: #FFFFFF;
 }
 
-.nav-menu__link:hover{
-  text-shadow: 0px 0px 5px #fff;
+.promo_pretitle_size_l {
+  font-size: 48px;
+  line-height: 56px;
 }
 
-.header__logo {
-  margin-left: 115px;
+.promo_pretitle_align_left {
+  text-align: left;
+}
+
+.promo_separator {
+  height: 1px;
+  width: 170px;
+  margin: 40px auto 40px auto;
+  background-color: #EC7979;
+}
+
+.promo_separator_color_white {
+  background-color: #fff;
+}
+
+.promo_separator_align_left {
+  margin: 0;
+}
+
+.promo__subtitle {
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878B;
+  padding-top: 40px;
+}
+
+.promo__subtitle_color_white {
+  color: #fff;
+}
+
+.promo__btn {
+  padding-top: 42px;
+}
+
+.btn-download_border_white {
+  border: 1px solid #fff;
+}
+
+.btn-download_background_transparent {
+  background-color: transparent;
 }
