@@ -8,19 +8,18 @@
   <title>AXIT</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/header__nav-bar.css">
-
 </head>
 
 <body>
   <header class="header">
-    <div class="container " id="bg-header">
+    <div class="container">
       <nav class="nav-bar header__nav-bar">
-        <div class="logo header__logo_size_m">
-          <img src="./images/logo-nav-bar.png" alt="" class="header__logo-icon">
+        <div class="logo">
+          <img src="./images/logo-nav-bar.png" alt="" class="logo__icon">
         </div>
         <ul class="nav-menu">
           <li class="nav-menu__item">
@@ -41,36 +40,185 @@
         </ul>
       </nav>
 
-      <div class="header__main">
+      <div class="header__main" id="bg-header">
         <div class="promo">
-          <div class="logo promo__logo_size_l">
-            <img src="./images/logo.png" alt="" class="promo__logo_size_l-icon">
+          <div class="logo">
+            <img src="./images/logo.png" alt="" class="logo__icon
+            logo__icon_size_l">
           </div>
-          <h1 class="promo_pretitle
-          promo_pretitle_color_white
-          promo_pretitle_size_l
-          promo_pretitle_align_left">
-            MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
-          </h1>
-          <div class="promo_separator
-          promo_separator_color_white
-          promo_separator_align_left">
+          <div class="pretitle promo__pretitle
+          pretitle_color_white">
+            <h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
           </div>
-          <div class="promo__subtitle
-          promo__subtitle_color_white">
+          <div class="separator promo__separator
+          separator_color_white
+          separator_align_left">
+          </div>
+          <div class="subtitle promo__subtitle
+          subtitle_color_white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </div>
           <div class="promo__btn">
-            <a href="#" class="btn btn-download
+            <a href="#" class="btn
             btn-download_border_white
-            btn-download_background_transparent">
+            btn-download_background-color_transparent
+            btn-download_color_white">
               Download
             </a>
           </div>
+          <div class="promo__sign-up-box">
+            <div class="pretitle
+            pretitle_three_text_red
+            pretitle_align_center
+            pretitle_padding_sign-up-box">
+              <h4>Try Your <span>FREE</span> Trial Today</h4>
+            </div>
+            <input type="text" class="input-primary promo__input" placeholder="Name">
+            <input type="text" class="input-primary promo__input" placeholder="Email">
+            <input type="text" class="input-primary promo__input" placeholder="Password">
+            <button class="btn promo__btn
+            promo__btn_registration">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class=" media-box header__media-box">
+        <div class="media-box__text">
+          <h4 class="media-box__item">Social Media</h4>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aenean euismod bibendum laoreet.
+          </div>
+        </div>
+        <div class="media-box__icon">
+          <a href="#" class="media-box__link">
+            <svg aria-hidden="true" height="70" width="70" class="icon">
+              <use href="./images/icons.svg#fb-icon"></use>
+            </svg>
+          </a>
+          <a href="#" class="media-box__link">
+            <svg aria-hidden="true" height="70" width="70" class="icon">
+              <use href="./images/icons.svg#tw-icon"></use>
+            </svg>
+          </a>
+          <a href="#" class="media-box__link">
+            <svg aria-hidden="true" height="70" width="70" class="icon">
+              <use href="./images/icons.svg#in-icon"></use>
+            </svg>
+          </a>
+          <a href="#" class="media-box__link">
+            <svg aria-hidden="true" height="70" width="70" class="icon">
+              <use href="./images/icons.svg#pin-icon"></use>
+            </svg>
+          </a>
+          <a href="#" class="media-box__link">
+            <svg aria-hidden="true" height="70" width="70" class="icon">
+              <use href="./images/icons.svg#insta-icon"></use>
+            </svg>
+          </a>
+          <a href="#" class="media-box__link">
+            <svg aria-hidden="true" height="70" width="70" class="icon">
+              <use href="./images/icons.svg#github-icon"></use>
+            </svg>
+          </a>
+          <a href="#" class="media-box__link">
+            <svg aria-hidden="true" height="70" width="70" class="icon">
+              <use href="./images/icons.svg#rss-icon"></use>
+            </svg>
+          </a>
         </div>
       </div>
     </div>
   </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="main__tabs">
+        <div class="tabs">
+          <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+          <label for="tab-btn-1">TAB 1</label>
+          <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+          <label for="tab-btn-2">TAB 2</label>
+          <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+          <label for="tab-btn-3">TAB 3</label>
+          <div class="tabs__content_first">
+            <div class="tabs__text">
+              <div class="tabs__title">
+                <h3>Tabs with soft transitioning effect.</h3>
+              </div>
+              <div class="tabs__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                penatibus et magnis dis parturient montes.
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                bibendum laoreet.
+              </div>
+              <div class="tabs__btn">
+                <a href="#" class="btn btn-download">
+                  Download
+                </a>
+              </div>
+            </div>
+            <div class="tabs__image">
+              <img src="./images/tabs-image.png" alt="" class="tabs__image_item">
+            </div>
+          </div>
+          <div class="tabs__content_second">
+            <div class="tabs__text">
+              <div class="tabs__title">
+                <h3>Tabs with soft transitioning effect #2.</h3>
+              </div>
+              <div class="tabs__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                penatibus et magnis dis parturient montes.
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                bibendum laoreet.
+              </div>
+              <div class="tabs__btn">
+                <a href="#" class="btn btn-download">
+                  Download
+                </a>
+              </div>
+            </div>
+            <div class="tabs__image">
+              <img src="./images/tabs-image.png" alt="" class="tabs__image_item">
+            </div>
+          </div>
+          <div class="tabs__content_three">
+            <div class="tabs__text">
+              <div class="tabs__title">
+                <h3>Tabs with soft transitioning effect #3.</h3>
+              </div>
+              <div class="tabs__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                penatibus et magnis dis parturient montes.
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                bibendum laoreet.
+              </div>
+              <div class="tabs__btn">
+                <a href="#" class="btn btn-download">
+                  Download
+                </a>
+              </div>
+            </div>
+            <div class="tabs__image">
+              <img src="./images/tabs-image.png" alt="" class="tabs__image_item">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>
