@@ -1,0 +1,87 @@
+/* --- main btn --- */
+
+.btn__item {
+  font-family: "Open Sans";
+  background-color: transparent;
+  border: 2px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  padding: 15.5px 89px 15.5px 89px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+/* ---btn download white--- */
+
+.btn__item_download_white {
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+
+.btn__item_download_white:hover {
+  color: #EC7979;
+  border: 2px solid #EC7979;
+}
+
+.btn__item_download_white:active {
+  background: #AB4949;
+  border: 2px solid #AB4949;
+  color: #fff;
+}
+
+.btn__item_download_white_size_xl {
+  padding: 15.5px 140px 15.5px 140px;
+}
+
+.btn__item_download_white_z-index_up {
+  position: relative;
+  z-index: 1;
+}
+
+/*---btn download---*/
+
+.btn__item_download {
+  background-color: #EC7979;
+  color: white;
+}
+
+.btn__item_download:hover {
+  color: #fff;
+  background-color: #AB4949;
+}
+
+.btn__item_download:active {
+  background-color: #EC7979;
+  color: #fff;
+  box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+.btn__item_download_size_xl {
+  padding: 15.5px 122px 15.5px 122px;
+}
+
+/*---btn registration---*/
+
+.btn__item_registration {
+  border: 2px solid #EC7979;
+  background-color: #EC7979;
+  color: #fff;
+  border-radius: 0px 0px 10px 10px;
+  padding: 16.5px 192px 16.5px 192px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.btn__item_registration:hover {
+  background-color: #AB4949;
+  border: 2px solid #AB4949;
+}
+
+.btn__item_registration:active {
+  background-color: #EC7979;
+  box-shadow: inset 0px 0px 10px #AB4949;
+}

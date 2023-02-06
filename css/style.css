@@ -1,3 +1,5 @@
+@import url(./btn.css);
+
 * {
   box-sizing: border-box;
   text-decoration: none;
@@ -99,26 +101,6 @@ h6 {
   background-color: #AB4949;
 }
 
-.btn {
-  font-family: "Open Sans";
-  background-color: transparent;
-  border: 2px solid transparent;
-  display: inline-flex;
-  align-items: center;
-  color: black;
-  text-decoration: none;
-  padding: 15.5px 89px 15.5px 89px;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 600;
-
-}
-
-.btn-download {
-  background-color: #EC7979;
-  color: white;
-}
-
 .header__main {
   padding: 208px 670px 185px 170px;
 }
@@ -182,48 +164,6 @@ h6 {
   color: #fff;
 }
 
-.promo__btn {
-  padding-top: 42px;
-}
-
-.btn-download {
-  background-color: #EC7979;
-}
-
-.btn-download_border_white {
-  border: 2px solid #fff;
-}
-
-.btn-download_background-color_transparent {
-  background-color: transparent;
-}
-
-.btn-download_color_white {
-  color: #fff;
-}
-
-.btn-download_color_white:hover {
-  color: #EC7979;
-  border: 2px solid #EC7979;
-}
-
-.btn-download_color_white:active {
-  background-color: #AB4949;
-  color: #fff;
-  border: 2px solid #AB4949;
-}
-
-.btn-download:hover {
-  color: #fff;
-  background-color: #AB4949;
-}
-
-.btn-download:active {
-  background-color: #EC7979;
-  color: #fff;
-  box-shadow: inset 0px 0px 10px #AB4949;
-}
-
 .pretitle_three_text_red span {
   color: #EC7979;
   font-size: 24px;
@@ -237,24 +177,6 @@ h6 {
 
 .pretitle_padding_sign-up-box {
   padding: 30px 0 102px 0;
-}
-
-.promo__btn_registration {
-  background-color: #EC7979;
-  color: #fff;
-  border-radius: 0px 0px 10px 10px;
-  padding: 16.5px 192px 16.5px 192px;
-  margin-top: 20px;
-  font-size: 15px;
-}
-
-.promo__btn_registration:hover {
-  background-color: #AB4949;
-}
-
-.promo__btn_registration:active {
-  background-color: #EC7979;
-  box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 .promo__sign-up-box {
@@ -540,11 +462,6 @@ h6 {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.btn-download_z-index_up {
-  position: relative;
-  z-index: 1;
-}
-
 .subtitle_z-index_up {
   position: relative;
   z-index: 1;
@@ -562,10 +479,6 @@ h6 {
 
 .promo__btn_padding-top_more {
   padding-top: 70px;
-}
-
-.btn-download_size_l {
-  padding: 15px 139px 15px 139px;
 }
 
 .contact-us-box {
