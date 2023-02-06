@@ -73,7 +73,10 @@
   border-radius: 0px 0px 10px 10px;
   padding: 16.5px 192px 16.5px 192px;
   margin-top: 20px;
+  font-family: 'Open Sans';
+  font-weight: 600;
   font-size: 15px;
+  line-height: 20px;
 }
 
 .btn__item_registration:hover {
