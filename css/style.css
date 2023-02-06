@@ -15,6 +15,7 @@ body {
 .container {
   max-width: 1510px;
   margin: 0 auto;
+  background-color: #fff;
 }
 
 h1 {
@@ -58,7 +59,7 @@ h6 {
   background-image: url(/images/bg-header.png);
   position: relative;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 
@@ -101,7 +102,7 @@ h6 {
 .btn {
   font-family: "Open Sans";
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   display: inline-flex;
   align-items: center;
   color: black;
@@ -123,11 +124,16 @@ h6 {
 }
 
 .promo__pretitle {
-  padding: 50px 0 55px 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .pretitle_color_white {
   color: #FFFFFF;
+}
+
+.pretitle_padding_top {
+  padding-top: 50px;
 }
 
 .pretitle_size_l {
@@ -151,7 +157,7 @@ h6 {
 }
 
 .separator_align_left {
-  margin: 0;
+  display: inline-block;
 }
 
 .subtitle {
@@ -160,8 +166,16 @@ h6 {
   color: #86878B;
 }
 
-.promo__subtitle {
-  padding-top: 40px;
+/*.prono__subtitle {
+
+}*/
+
+.promo {
+  text-align: center;
+}
+
+.header__promo {
+  text-align: left;
 }
 
 .subtitle_color_white {
@@ -177,7 +191,7 @@ h6 {
 }
 
 .btn-download_border_white {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
 
 .btn-download_background-color_transparent {
@@ -190,13 +204,13 @@ h6 {
 
 .btn-download_color_white:hover {
   color: #EC7979;
-  border: 1px solid #EC7979;
+  border: 2px solid #EC7979;
 }
 
 .btn-download_color_white:active {
   background-color: #AB4949;
   color: #fff;
-  border: 1px solid #AB4949;
+  border: 2px solid #AB4949;
 }
 
 .btn-download:hover {
@@ -207,6 +221,7 @@ h6 {
 .btn-download:active {
   background-color: #EC7979;
   color: #fff;
+  box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 .pretitle_three_text_red span {
@@ -239,6 +254,7 @@ h6 {
 
 .promo__btn_registration:active {
   background-color: #EC7979;
+  box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 .promo__sign-up-box {
@@ -248,7 +264,7 @@ h6 {
   background-color: #fff;
   border-radius: 10px;
   right: 170px;
-  top: 283px;
+  top: 203px;
 }
 
 .input-primary {
@@ -308,7 +324,6 @@ h6 {
 /* ------tabs ---- */
 .main__tabs {
   padding: 100px 170px 50px 170px;
-  background-color: #fff;
   display: flex;
   justify-content: space-around;
 }
@@ -379,4 +394,88 @@ h6 {
 
 .tabs__image {
   display: flex;
+}
+
+.row_awesome-box {
+  padding: 69px 170px 58px 170px;
+  display: flex;
+  gap: 30px;
+}
+
+.col_awesome-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.col__title_padding_bottom {
+  padding-bottom: 45px;
+}
+
+.pricing-box {
+  background-color: #F5F5F5;
+  padding: 100px 0 0 0;
+}
+
+.row_pricing-box {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 59px 0 50px 0;
+}
+
+.col_pricing-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.col__card-price {
+  background-color: #333333;
+  border: 1px solid #F5F5F5;
+  color: #fff;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 700;
+  padding: 28px 134.5px 28px 134.5px;
+}
+
+.col__card-price_cover {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+  padding: 12.5px 134.5px 12.5px 134.5px;
+}
+
+.col__card-price_under {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 13.5px 134.5px 13.5px 134.5px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list__item {
+  background-color: #fff;
+  border: 1px solid #F5F5F5;
+  color: #86878B;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  padding: 13px 126px 13px 126px;
+}
+
+.col_pricing-box-shadow {
+  filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+
+}
+
+.col_pricing-box-aside {
+  margin-top: 20px;
 }
