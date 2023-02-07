@@ -75,10 +75,6 @@ h6 {
   display: flex;
 }
 
-/*.nav-menu__item{
-
-}*/
-
 .nav-menu__link {
   display: inline-block;
   color: #FFFFFF;
@@ -144,10 +140,6 @@ h6 {
   line-height: 21px;
   color: #86878B;
 }
-
-/*.prono__subtitle {
-
-}*/
 
 .promo {
   text-align: center;
@@ -246,9 +238,6 @@ h6 {
   color: #EC7979;
 }
 
-
-/* ------tabs ---- */
-
 .box_tabs {
   padding: 100px 170px 50px 170px;
   display: flex;
@@ -261,13 +250,11 @@ h6 {
 }
 
 .tabs>div {
-  /* скрыть контент по умолчанию */
   display: none;
   border: 1px solid #e0e0e0;
   font-size: 16px;
 }
 
-/* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
 #tab-btn-1:checked~.tabs__content_first,
 #tab-btn-2:checked~.tabs__content_second,
 #tab-btn-3:checked~.tabs__content_three {
